@@ -1,0 +1,83 @@
+body {
+  background-color: #f5ebe2;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: white;
+  height: 10%;
+  margin: 8% 5% 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerleft {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.fullstop {
+  color: #ef663d;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.search {
+  height: 30px;
+  width: 210px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  margin-left: 30px;
+  padding-left: 15px;
+  background-color: #f5ebe2;
+  font-size: 12px;
+}
+
+.searchbutton {
+  height: 30px;
+  background-color: #f5ebe2;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding: 0 10px 0 10px;
+  align-items: center;
+}
+
+.fa-search {
+  color: #4035b5;
+}
+
+.headerright {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.newteamlink {
+  padding: 10px 40px;
+  background-color: #ef663d;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-bell-o {
+  margin-left: 30px;
+}
+
+.profilepic {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}

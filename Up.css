@@ -10,6 +10,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-shadow: 0px 3px 4px -1px rgba(201, 201, 201, 1);
+  z-index: 2;
 }
 
 .headerleft {
@@ -80,4 +82,49 @@ a {
   height: 35px;
   width: 35px;
   border-radius: 50%;
+}
+
+.sidenav {
+  height: 70%;
+  width: 4%;
+  margin: 0 0 0 5%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+  z-index: -1;
+  position: fixed;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  height: 20px;
+  width: 20px;
+  color: #c0cbf9;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.icon:hover {
+  padding: 7px;
+  color: #4035b5;
+  background-color: #f3f2f7;
+}
+
+.opennav {
+  margin-top: 90px;
+  color: #c0cbf9;
+  border-radius: 4px;
+  padding: 7px;
+  font-size: 25px;
+}
+
+.opennav:hover {
+  color: #4035b5;
+  background-color: #f3f2f7;
+  padding: 7px;
 }

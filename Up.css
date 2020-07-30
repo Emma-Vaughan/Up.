@@ -32,6 +32,7 @@ body {
 
 h1 {
   font-size: 25px;
+  font-weight: 700;
 }
 
 .fullstop {
@@ -142,6 +143,7 @@ a {
   margin: -500px 0 0 160px;
   height: 550px;
   width: 80%;
+  font-size: 15px;
 }
 
 .grid {
@@ -205,4 +207,86 @@ a {
 .squares {
   border-radius: 10px;
   background-color: white;
+}
+
+h2 {
+  margin-left: 30px;
+}
+
+span {
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+}
+
+.tasks {
+  width: 130px;
+  height: 47px;
+  margin: 0 0 0 30px;
+  padding: 5px 0 5px 0;
+  border: 2px purple solid;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: lightgray;
+}
+
+.bold {
+  font-size: 24px;
+  color: black;
+  padding: 2px;
+}
+
+.projects {
+  width: 130px;
+  height: 47px;
+  margin-left: 30px;
+  padding: 5px 0 5px 0;
+  border: 2px orange solid;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: lightgray;
+}
+
+.earned {
+  width: 160px;
+  height: 47px;
+  margin: -155px 0 0 200px;
+  padding: 5px 0 5px 0;
+  border: 2px yellow solid;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: lightgray;
+}
+
+.create {
+  width: 230px;
+  height: 47px;
+  margin: 15px 0 0 200px;
+  padding: 5px 0 5px 0;
+  border: 2px #4136b6 solid;
+  border-radius: 10px;
+  background-color: #4136b6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.create p {
+  width: 120px;
+  font-size: 14px;
+  text-align: left;
+  color: lightgray;
+}
+
+.fa-arrow-up {
+  padding: 17px;
+  background-color: #715cd5;
+  border-radius: 10px;
+  color: white;
 }

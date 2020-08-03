@@ -8,7 +8,7 @@ h6 {
 }
 
 body {
-  background-color: #f5ebe2;
+  background-color: #faf6f3;
   font-family: "Roboto", sans-serif;
 }
 
@@ -188,6 +188,12 @@ a {
 .earnings {
   grid-column: 5/8;
   grid-row: 5/9;
+  display: flex;
+  flex-direction: column;
+}
+
+.earnings h2 {
+  margin-bottom: 0;
 }
 
 .teampeople {
@@ -220,6 +226,10 @@ a {
 
 .yellow {
   background-color: #f7b632;
+}
+
+.lightpink {
+  background-color: #faf6f3;
 }
 
 h2 {
@@ -361,4 +371,190 @@ p {
   width: 33px;
   border-radius: 50%;
   margin: 5px 0 0 10px;
+}
+
+.flatcher p {
+  margin: 20px 0 0 20px;
+  font-weight: bold;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  margin: -30px 0px 0 55px;
+}
+
+#progressclient {
+  height: 10px;
+  -webkit-appearance: none;
+}
+
+#progressclient::-webkit-progress-value {
+  background-color: #4136b6;
+  border-radius: 10px;
+}
+
+#progressclient::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.textcolor {
+  color: #4136b6;
+}
+
+.flatcherpic {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  margin: 5px 0 0 10px;
+}
+
+.graphic {
+  height: 170px;
+  width: 140px;
+  margin: -57px 0 10px 25px;
+}
+
+.announcements p {
+  margin: 0 0 3px 25px;
+}
+
+.phonegraphic {
+  width: 236px;
+  height: 100px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.servicesblack {
+  padding: 2px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: -10px 0 0 0;
+  height: auto;
+  width: 232px;
+  position: absolute;
+  z-index: 2;
+}
+
+.services h2 {
+  font-weight: bold;
+  margin-left: -10px;
+}
+
+.amounts {
+  margin: 10px 10px 0 30px;
+}
+
+.amounts p {
+  font-size: 10px;
+  margin: 0 0 5px 0;
+}
+
+.months {
+  display: flex;
+  flex-direction: row;
+  padding-left: 93px;
+}
+
+.months p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0 15px;
+  width: 25px;
+}
+
+.graph {
+  display: flex;
+  flex-direction: row;
+}
+
+.bars {
+  display: flex;
+  flex-direction: row;
+}
+
+.bar {
+  -webkit-appearance: none;
+  width: 12px;
+}
+
+.purplebar::-webkit-progress-value {
+  background-color: #4136b6;
+}
+
+.yellowbar {
+  margin-right: 30px;
+}
+
+.yellowbar::-webkit-progress-value {
+  background-color: #f7b632;
+}
+
+.bar::-webkit-progress-value {
+  border-radius: 10px;
+}
+
+.bar::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: white;
+  transform: rotate(270deg);
+  width: 90px;
+  height: 10px;
+  margin-top: 50px;
+}
+
+.key {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.key p {
+  font-size: 12px;
+}
+
+.keybar {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 10px;
+  width: 20px;
+}
+
+#planned {
+  -webkit-appearance: none;
+}
+
+#planned::-webkit-progress-value {
+  background-color: #f7b632;
+  border-radius: 10px;
+}
+
+#planned::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: white;
+  width: 20px;
+  height: 10px;
+}
+
+#overtime {
+  -webkit-appearance: none;
+}
+
+#overtime::-webkit-progress-value {
+  background-color: #4136b6;
+  border-radius: 10px;
+}
+
+#overtime::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: white;
+  width: 20px;
+  height: 10px;
 }

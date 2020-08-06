@@ -24,7 +24,8 @@
       </div>
       <div class="headerright">
         <a class="newteamlink" href="#">Create new team</a>
-        <i class="fa fa-bell-o" aria-hidden="true"></i>
+
+        <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
 
         <figure>
           <img
@@ -74,9 +75,12 @@
       <div class="grid">
         <div class="collections squares">
           <h2><span>Your</span> collections</h2>
-          <p class="tasks">Tasks <span class="bold">22</span></p>
-          <p class="projects">Projects <span class="bold">7</span></p>
-          <p class="earned">Earned <span class="bold">$10k</span></p>
+          <div class="tasks stats">
+            <p>Tasks</p>
+            <span class="bold"> 22</span>
+          </div>
+          <p class="projects stats">Projects <span class="bold">7</span></p>
+          <p class="earned stats">Earned <span class="bold">$10k</span></p>
           <div class="create">
             <p>You can create more collections.</p>
             <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -86,10 +90,22 @@
           <h2><span>Your</span> team flag</h2>
           <img class="flag" src="./flag.png" />
           <div class="icons">
-            <i class="fa fa-toggle-on flagactions" aria-hidden="true"></i>
-            <i class="fa fa-heart flagactions" aria-hidden="true"></i>
-            <i class="fa fa-briefcase flagactions" aria-hidden="true"></i>
-            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            <div class="lefticons">
+              <a href="#"
+                ><i class="fa fa-toggle-on flagactions" aria-hidden="true"></i
+              ></a>
+              <a href="#"
+                ><i class="fa fa-heart flagactions" aria-hidden="true"></i
+              ></a>
+              <a href="#"
+                ><i class="fa fa-briefcase flagactions" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="ellipsis">
+              <a href="#"
+                ><i class="fa fa-ellipsis-v" aria-hidden="true"></i
+              ></a>
+            </div>
           </div>
         </div>
         <div class="alridge squares blue">
@@ -124,7 +140,9 @@
           <img class="phonegraphic" src="./phonegraphic.png" alt="phone" />
           <div class="servicesblack">
             <h2>Pro services</h2>
-            <p>Experts, trusted by the world's biggest brands.</p>
+            <p class="servicestext">
+              Experts, trusted by the world's biggest brands.
+            </p>
           </div>
         </div>
         <div class="earnings squares">
@@ -173,9 +191,20 @@
             <p>Overtime</p>
           </div>
         </div>
-        <div class="teampeople squares"></div>
-        <div class="laptopicon squares"></div>
-        <div class="seemore squares yellow"></div>
+        <div class="teampeople squares">
+          <div class="number">
+            10
+          </div>
+          <div class="inteam">
+            <p>People <br /><span>in your team.</span></p>
+          </div>
+        </div>
+        <div class="laptopicon squares">
+          <img class="macpic" src="./mac2.png" />
+        </div>
+        <div class="seemore squares yellow">
+          <a href="#">See <span>More</span></a>
+        </div>
       </div>
     </div>
   </body>
